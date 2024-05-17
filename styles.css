@@ -1,0 +1,382 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: medium;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("Resource/Font/D-DIN-Bold.otf");
+}
+
+@font-face {
+  font-family: medium;
+  src: url("Resource/Font/DIN\ Medium\ Regular.ttf");
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#span-section-div-1 {
+  width: 1905px;
+  min-height: 905px;
+  background-image: url("Resource/Image/spacex1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-section-div {
+  width: 1905px;
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+#header-nav-section-div {
+  width: 1650px;
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);
+  float: right;
+}
+
+#header-inner-section-div {
+  width: 1400px;
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  padding-left: 48px;
+}
+
+#header-component-div-1 {
+  width: 210px;
+  min-height: 29px;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-image: url("Resource/SVG/spacex-logo-svgrepo-com.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  padding-left: 7px;
+  margin-top: 30px;
+}
+
+#header-component-div-2 {
+  width: 820.094px;
+  min-height: 26px;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  margin-top: 38px;
+  margin-left: 18px;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+  font-family: myfont;
+  text-align: center;
+  line-height: 26px;
+  font-weight: 300;
+  color: white;
+  font-size: 14px;
+  margin-left: 18px;
+  margin-right: 5px;
+}
+
+li:hover{
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+#header-right-inner-section-div {
+  width: 250px;
+  min-height: 100px;
+  background-color: rgb(0, 0, 0);
+  float: left;
+}
+
+#right-text-inner-section-div {
+  width: 56px;
+  min-height: 26px;
+  background-color: rgb(0, 0, 0);
+  margin-left: 109px;
+  margin-top: 38px;
+  line-height: 26px;
+  text-align: center;
+  float: left;
+}
+
+.a-2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-family: myfont;
+  text-decoration: none;
+}
+
+.a-2:hover{
+  text-decoration:underline;
+}
+
+#three-bar-icon {
+  width: 25px;
+  min-height: 22px;
+  margin-left: 19px;
+  margin-top: 45px;
+  float: left;
+}
+
+.bar {
+  width: 16px;
+  margin-top: 2px;
+  min-height: 2px;
+  background-color:rgb(255, 255, 255);
+}
+
+#child-span-section-div-1 {
+  width: 520px;
+  min-height: 188px;
+  margin-top: 475px;
+  margin-left: 302px;
+}
+
+#text-section-div-1{
+  width: 468px;
+  min-height: 70px;
+}
+
+#h2-1{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: myfont;
+  color: white;
+  margin: 1px;
+}
+
+#botton-1{
+  width: 164px;
+  min-height: 54px;
+  text-align:center;
+  line-height:54px;
+  border: 2px solid white;
+  color: white;
+  margin-top: 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: myfont;
+  font-weight: 700;
+}
+
+#span-section-div-2 {
+  width: 1905px;
+  min-height: 908px;
+  background-image: url("Resource/Image/spacex2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 591px;
+}
+
+#child-span-section-div-2{
+  width: 520px;
+  min-height: 176px;
+  margin-left: 301px;
+}
+
+#inner-child-span-section-div-2{
+  width: 520px;
+  min-height: 38px;
+  float: left;
+}
+
+#span-section-text-div-1{
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 17px;
+  color: white;
+  line-height: 38px;
+}
+
+#h2-2{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: myfont;
+  color: white;
+  margin: 1px;
+}
+
+
+
+#botton-2{
+  width: 164px;
+  min-height: 54px;
+  text-align:center;
+  line-height:54px;
+  border: 2px solid white;
+  color: white;
+  margin-top: 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: myfont;
+  font-weight: 700;
+}
+
+#span-section-div-3 {
+  width: 1905px;
+  min-height: 905px;
+  background-image: url("Resource/Image/spacex3\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 585px;
+}
+#child-inner-left-section-div-3{
+  width: 520px;
+  min-height: 188px;
+  margin-left: 301px;
+}
+
+#span-section-text-div-3{
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 17px;
+  color: white;
+  line-height: 38px;
+}
+
+#h2-3{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: myfont;
+  color: white;
+  margin: 1px;
+}
+
+#botton-3{
+  width: 164px;
+  min-height: 54px;
+  text-align:center;
+  line-height:54px;
+  border: 2px solid white;
+  color: white;
+  margin-top: 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: myfont;
+  font-weight: 700;
+}
+
+#span-section-div-4 {
+  width: 1905px;
+  min-height: 905px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("Resource/Image/spacex4\ \(1\).jpg");
+  background-repeat: no-repeat;
+  padding-top:582px;
+}
+
+#child-inner-left-section-div-4{
+    width:520px;
+    min-height:188px;
+    margin-left:306px;
+}
+
+#h2-4{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: myfont;
+  color: white;
+  margin: 1px;
+}
+
+#button-4 {
+  width: 164px;
+  min-height: 54px;
+  text-align:center;
+  line-height:54px;
+  border: 2px solid white;
+  color:white;
+  margin-top: 33px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: myfont;
+  font-weight: 700;
+  margin-bottom:6px;
+}
+
+#span-section-div-5 {
+  width: 1905px;
+  min-height: 905px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("Resource/Image/spacex5\ \(1\).jpg");
+  background-repeat: no-repeat;
+  padding-top:542px;
+}
+
+#child-inner-left-section-div-5{
+  width:520px;
+  min-height:234px;
+  margin-left:304px;
+
+}
+
+#span-section-text-div-5{
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 17px;
+  color: white;
+  line-height: 38px;
+}
+
+#h2-5{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: myfont;
+  color: white;
+  margin: 1px;
+}
+
+#button-5 {
+  width: 164px;
+  min-height: 54px;
+  text-align:center;
+  line-height:54px;
+  border: 2px solid white;
+  color:white;
+  margin-top: 23px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: myfont;
+  font-weight: 700;
+  margin-bottom:6px;
+}
+#footer-section-div {
+  width: 1905px;
+  min-height: 81px;
+  background-color: rgb(0, 0, 0);
+  padding-left:798px;
+  padding-top:35px;
+}
+
+.footer-text{
+  display:inline;
+  
+  text-align:center;
+  color:white;
+  text-transform:uppercase;
+  font-size:11px;
+}
+
+#first-footer-text{
+  font-size:11px;
+}
+
+#second-footer-text{
+  margin-left:41px;
+  margin-right:41px;
+}
